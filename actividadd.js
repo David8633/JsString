@@ -13,11 +13,14 @@ nombre.indexOf("Hola");
 /*Reemplaza la cadena “Mundo” por la cadena “Youtube” y muestra el resultado.*/
 nombre.replace("Mundo","Youtube");
 /*Extrae la segunda parte de la cadena y muéstrala por consola.*/
+nombre.split(" ")[1];
 /*Comprueba si la cadena empieza por “h”.*/
 nombre.startsWith("h");
 /*Comprueba si la cadena empieza por “H”.*/
 nombre.startsWith("H");
 /*Muestra Utilizando por TEMPLATE consola la STRINGS letra JAVASCRIPT*/
+let variable = "JAVASCRIPT";
+console.log(`String : ${variable}`)
  /*“r” declara 10 veces.*/
  let i = 0;
  while(i<10){console.log("r");i++;}
@@ -26,6 +29,6 @@ nombre.startsWith("H");
  let apellidos = "Martinez Avila";
  let edad = 19;
  let e =0;
- while(e<4){
+ while(e<3){
  console.log(`Hola , soy ${name1},${apellidos}. y tengo ${edad}`);
 e++;};
