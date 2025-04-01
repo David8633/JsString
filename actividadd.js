@@ -5,6 +5,7 @@ console.log(nombre.length);
 /*Muestra por consola la cadena con todos sus caracteres en mayúsculas.*/
 console.log(nombre.toUpperCase);
 /*Muestra por consola la cadena con todos sus caracteres en minúsculas.*/
+console.log(nombre.toLowerCase);
 /*Muestra por consola la posición de la cadena en la que se encuentra la letra o.*/
 /*Muestra por consola la posición de la cadena en la que se encuentra la cadena “Hola”.*/
 /*Reemplaza la cadena “Mundo” por la cadena “Youtube” y muestra el resultado.*/
